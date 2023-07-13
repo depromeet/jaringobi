@@ -33,7 +33,7 @@ export default function BottomNavigation() {
   };
 
   return (
-    <div className="flex h-[60px] w-screen flex-[0_0_60px] items-center justify-around bg-white">
+    <div className="fixed bottom-0 flex h-bottom-nav w-screen items-center justify-around bg-white">
       <button type="button">
         <Link className="flex flex-col items-center" href="/search">
           <IconSearch
